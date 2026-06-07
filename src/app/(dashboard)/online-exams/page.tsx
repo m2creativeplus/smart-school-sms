@@ -1,10 +1,8 @@
+"use client";
+
 import { Metadata } from "next";
 import { DataTable } from "@/components/shared/DataTable";
 import { Plus } from "lucide-react";
-
-export const metadata: Metadata = {
-  title: "Online Exam List | Smart School SMS",
-};
 
 export default function OnlineExamsPage() {
   const columns = [
