@@ -10,6 +10,7 @@
 
 import type * as auth from "../auth.js";
 import type * as dashboard from "../dashboard.js";
+import type * as fees from "../fees.js";
 import type * as students from "../students.js";
 import type * as users from "../users.js";
 
@@ -22,6 +23,7 @@ import type {
 declare const fullApi: ApiFromModules<{
   auth: typeof auth;
   dashboard: typeof dashboard;
+  fees: typeof fees;
   students: typeof students;
   users: typeof users;
 }>;
