@@ -173,7 +173,7 @@ export default function DashboardPage() {
                     </div>
                   </div>
                   <div className="col-md-3">
-                    <h5 className="font-semibold text-gray-700 border-b pb-2 mb-3">Today's Attendance</h5>
+                    <h5 className="font-semibold text-gray-700 border-b pb-2 mb-3">Today&apos;s Attendance</h5>
                     <div className="space-y-2">
                       <div className="flex justify-between text-sm">
                         <span className="text-green-500 font-medium">0 PRESENT</span>

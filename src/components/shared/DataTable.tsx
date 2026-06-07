@@ -6,7 +6,7 @@ export function DataTable({
   onSearch 
 }: { 
   columns: { key: string; label: string }[]; 
-  data: any[];
+  data: Record<string, unknown>[];
   onSearch?: (term: string) => void;
 }) {
   return (
