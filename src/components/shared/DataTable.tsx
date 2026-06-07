@@ -6,7 +6,8 @@ export function DataTable({
   onSearch 
 }: { 
   columns: { key: string; label: string }[]; 
-  data: Record<string, unknown>[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  data: Record<string, any>[];
   onSearch?: (term: string) => void;
 }) {
   return (
